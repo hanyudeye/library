@@ -1,0 +1,51 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment directories
+venv/
+env/
+*.env/
+*.venv/
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.whl
+
+# PyInstaller
+*.manifest
+*.spec
+
+# VSCode settings
+.vscode/
+
+# IDEs and editors
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pycharm settings
+.idea/
+
+# Django migration files
+*.log
+*.pot
+
+# Python tests output
+nosetests.xml
+coverage.xml
+*.cover
+*.hypothesis/
+*.pytest_cache/
+
+# 我的虚拟环境
+myenv/
