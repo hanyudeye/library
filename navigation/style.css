@@ -1,0 +1,22 @@
+nav>ul{
+
+}
+nav>ul> li{
+    display: inline;
+    margin-right: 10px;
+}
+
+section ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 创建3列，每列占1fr的空间 */
+    gap: 20px; /* 列与列之间的间隙 */
+}
+
+section> ul>li{
+    list-style: none;
+}
+
+section>ul>li>a{
+    text-decoration: none;
+}
+
