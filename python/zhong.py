@@ -20,5 +20,7 @@ import pygame
 #     pygame.time.Clock().tick(10)
 
 
-#3. 
+#3. 显示对象的信息
+Gou={'name':"狗",'attribute':'动物'}
+print(Gou)
 
