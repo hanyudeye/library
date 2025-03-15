@@ -1,0 +1,9 @@
+customer_id,name,email,phone_number,signup_date,total_spent,customer_type
+1,John Doe,john.doe@example.com,123-456-7890,2021-06-15,1500,regular
+2,Jane Smith,jane.smith@example.com,234-567-8901,2020-09-20,2000,VIP
+3,Bob Brown,bob.brown@example.com,345-678-9012,2022-01-10,800,regular
+4,Alice Green,alice.green@example.com,456-789-0123,2019-12-05,2500,VIP
+5,Charlie White,charlie.white@example.com,567-890-1234,2023-03-22,600,regular
+6,David Black,david.black@example.com,678-901-2345,2021-07-30,3000,VIP
+7,Emily Blue,emily.blue@example.com,789-012-3456,2020-11-11,1200,regular
+8,Frank Yellow,frank.yellow@example.com,890-123-4567,2022-08-03,1800,VIP
