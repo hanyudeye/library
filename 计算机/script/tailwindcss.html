@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwindcss Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                }
+            }
+           
+        }
+    </script>
+</head>
+
+<body>
+    <!-- 添加响应式设计，简单分为的 sm 手机 和 md平板两种  -->
+    <div class="container mx-auto  ">
+        <div
+            class="nav text-yellow-800  p-4  rounded bg-green-300  2xl:bg-blue-300 sm:bg-green-300 md:bg-purple-300 lg:bg-red-100">
+            <ul>
+                <li>
+                    <a href="#">主页</a>
+                    <a href="#">博客</a>
+                    <a href="#">联系</a>
+                    <a href="#">关于</a>
+                </li>
+            </ul>
+        </div>
+        <div class="flex items-center justify-center ">
+            <p class="w-80 text-clifford">这是一个 Flexbox 布局</p>
+            <p class="w-80">这是一个 Flexbox 布局</p>
+            <p class="w-80">这是一个 Flexbox 布局</p>
+            <p>这是一个 Flexbox 布局</p>
+            <p class="w-80">这是一个 Flexbox 布局</p>
+            <p>这是一个 Flexbox 布局</p>
+        </div>
+
+        <div class="grid grid-cols-3 gap-2">
+            <div class="border rounded hover:bg-blue-700">这是网格布局</div>
+            <div class="border dark:bg-blue-700">这是网格布局</div>
+            <div class="border">这是网格布局</div>
+            <div class="border">这是网格布局</div>
+            <div class="border">这是网格布局</div>
+        </div>
+    </div>
+</body>
+
+</html>
